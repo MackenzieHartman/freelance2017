@@ -17,13 +17,6 @@ li {
 	color: #eb6935 !important;
 }
 
-.container{
-    padding-right: 
-    padding-left:;
-    margin-right: 
-    margin-left: ;
-}
-
 /*@media (min-width: 1100px)
 */
 .container{
@@ -74,7 +67,7 @@ li {
 }
 
 .navbar-nav>li>a {
-    padding: 0px !important;
+    padding: 16px !important;
 }
 
 .navbar-inverse .navbar-nav>li>a{
@@ -92,6 +85,23 @@ a:hover, a:focus{
 
 i.fa-question fa-3x{
     color: #eb6935;
+}
+
+
+
+/*===========  NEW NAVBAR =============== */
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: rgba(248,248,248,.75) !important;
+   /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);*/
+    padding: 5px 0
+}
+
+.dropdown-menu {
+    min-width: 166px !important;
+    text-align: center !important;
+    font-size: 13px !important;
+    font-family: 'bw mitga' !important;
+
 }
 
 
